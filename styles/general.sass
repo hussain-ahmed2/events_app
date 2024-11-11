@@ -1,0 +1,124 @@
+header
+    height: 150px
+    padding: 20px 30px
+    .title
+        padding-top: 30px 
+        font-size: 40px
+        text-transform: uppercase
+    .topNav
+        display: flex
+        flex-direction: column
+        max-width: 1280px
+        width: 100%
+        margin: 0 auto
+        .nav-container
+            display: flex
+            justify-content: space-between
+            nav 
+                display: flex
+                gap: 15px
+                font-weight: 600
+                font-size: 16px
+
+footer
+    background-color: #333
+    color: #fff
+    padding: 10px
+    text-align: center
+
+main
+    width: 100%
+    max-width: 1280px
+    margin: 0 auto
+    padding: 50px 30px 
+    min-height: calc(100vh - 140px)
+    .home-body
+        display: flex
+        flex-direction: column
+        gap: 50px
+        .card
+            display: flex 
+            flex-direction: row 
+            align-items: center
+            align-content: center
+            justify-content: space-between
+            gap: 30px
+            &:nth-child(even)
+                direction: rtl
+            .image
+                width: 50%
+            .content
+                width: 50%
+    .about-us
+        display: flex 
+        flex-direction: column
+        gap: 30px
+    .events-page
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: space-evenly
+        gap: 20px
+        width: 100%
+        .card
+            position: relative
+            h2
+                width: 100%
+                font-size: 38px 
+                color: white
+                position: absolute
+                top: 50%
+                text-align: center
+                text-transform: uppercase
+                text-shadow: 2px 2px 20px black
+
+.cat-events
+    width: 100%
+    h1
+        padding-bottom: 20px
+    .content
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        gap: 20px
+        justify-content: flex-start
+    .card
+        display: flex
+        flex-direction: column
+        width: 30%
+        gap: 20px
+        img
+            width: 100%
+
+.event-single-page
+    .email-registration
+        padding: 20px 0
+        label 
+            display: flex
+            padding-bottom: 10px
+            font-size: 1.125rem
+            font-weight: 800
+            text-transform: uppercase
+            padding-top: 1.5rem
+        input
+            height: 40px
+            min-width: 400px
+            border-radius: 5px
+            box-shadow: none
+            font-size: 1rem
+            padding: 8px 16px
+        button
+            height: 40px
+            padding: 8px 16px
+            min-width: 150px
+            border: 1px solid #d4d5d7
+            font-size: 1rem
+            text-transform: uppercase
+            margin-left: 1rem
+            background-color: #888
+            border-radius: 5px
+            cursor: pointer
+            &:hover
+                background-color: #567
+
+
